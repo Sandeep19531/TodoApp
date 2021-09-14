@@ -6,11 +6,13 @@ import HashItem from './HashItem';
 function HashTags() {
     const {hashTags} = useSelector(state => state.taskState);
     var z = new Set();
-    hashTags.map(item =>{
-        z.add(...item.hashArray)
+    Array.from(hashTags).map(item =>{
+        // z.add(...item.hashArray)
+        item.hashArray.map(val =>{
+            z.add(val);
+        })
     });
     var arr = Array.from(z);
-    console.log(arr);
     return (
         <HashTagContainer>
             {
