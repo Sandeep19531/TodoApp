@@ -73,4 +73,5 @@ const TaskBarBtn = styled.button`
     height: 6.5vh;
     width: fit-content;
     background-color: pink;
+    cursor: pointer;
 `;

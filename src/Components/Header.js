@@ -69,6 +69,7 @@ const SearchBar = styled.input`
 
 const SearchBtn = styled.button`
     background-color: #7ed7f7;
+    cursor: pointer;
 `;
 
 const AppLogo = styled.div`
