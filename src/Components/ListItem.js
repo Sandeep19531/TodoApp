@@ -29,9 +29,9 @@ function ListItem({id,date,data}) {
                 </TaskDiv>
             </Datadiv>
             <div>
-                <button onClick={removefromlist} >
+                <RemoveBtn onClick={removefromlist} >
                     <CancelIcon />
-                </button>
+                </RemoveBtn>
             </div>
         </ListContainer>
     )
@@ -63,5 +63,17 @@ const TaskDiv = styled.div`
     font-family: Bookman, URW Bookman L, serif;
     font-weight: 600;
     font-size: 18px;
+`;
+
+const RemoveBtn = styled.button`
+    background-color: #fffdb8;
+    color: #632f02;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.06vw 0.19vw rgba(0,0,0,0.12),0 0.06vw 0.13vw rgba(0,0,0,0.24);
+    > .MuiSvgIcon-root{
+        /* color: silver; */
+    }
 `;
 
