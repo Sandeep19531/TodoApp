@@ -25,6 +25,6 @@ const HashItemContainer = styled.div`
     overflow-x: auto;
     >button{
         cursor: pointer;
-        background-color: yellow;
+        background-color: #fffdb8;
     }
 `;
