@@ -41,7 +41,7 @@ export default ListItem;
 
 const ListContainer = styled.div`
     display: flex;
-    background-color: yellow;
+    background-color: #fffdb8;
     margin: 0.5vw;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,6 @@ const DateDiv = styled.div`
 `;
 
 const TaskDiv = styled.div`
-    font-family: Bookman, URW Bookman L, serif;
     font-weight: 600;
     font-size: 18px;
 `;
