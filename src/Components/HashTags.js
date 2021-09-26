@@ -37,4 +37,5 @@ const HashTagContainer = styled.div`
     justify-content: center;
     padding: 0.5vw;
     margin-bottom: 1vw;
+    overflow-x: auto;
 `;

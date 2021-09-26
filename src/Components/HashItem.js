@@ -21,10 +21,10 @@ export default HashItem;
 const HashItemContainer = styled.div`
     margin-right: 10px;
     padding: 2px;
+    overflow-x: none;
     height: fit-content;
-    overflow-x: auto;
     >button{
-        cursor: pointer;
         background-color: #fffdb8;
+        cursor: pointer;
     }
 `;
